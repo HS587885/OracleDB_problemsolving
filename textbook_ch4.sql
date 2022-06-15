@@ -1,4 +1,4 @@
---1
+--1 
 select job_id, AVG(salary) as salary from employees group by job_id;
 --2
 select department_id, count(*) from employees group by department_id;
